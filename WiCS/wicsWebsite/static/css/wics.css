@@ -1,0 +1,43 @@
+.navbar-default {
+    background-color: #220066;/*#330080;*/
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover {
+    background-color: #5c00e6;
+    color: #ffffff;
+}
+
+.navbar-fixed-bottom {
+    min-height: 100px;
+}
+
+.footer-container {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+
+.footer-body {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.media-bar {
+  margin:0 auto;
+  width:200px;
+}
+
+.social-media {
+  width: 35px;
+  height: 35px;
+}
+
+
+
+
