@@ -1,0 +1,18 @@
+{% extends 'headerFooter.html' %}
+{% block title %} {% endblock title %}
+{% block header %} {% endblock header %}
+
+{% block content %}
+<div class="events container">
+  <h1>Calendar of Events</h1>
+  <h3>Below is our calendar of upcoming events. Feel free to add each event to your own Google Calendar.</h3>
+  <div class="events calendar">
+    <div class="desktop-calendar">
+      <iframe src="https://calendar.google.com/calendar/embed?title=WiCS%20at%20ASU%20Calendar&amp;height=600&amp;wkst=1&amp;bgcolor=%239999ff&amp;src=wics.asu%40gmail.com&amp;color=%235229A3&amp;ctz=America%2FPhoenix" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="mobile-calendar">
+      <iframe src="https://calendar.google.com/calendar/embed?title=WiCS%20at%20ASU%20Calendar&amp;mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%239999ff&amp;src=wics.asu%40gmail.com&amp;color=%235229A3&amp;ctz=America%2FPhoenix" style="border:solid 1px #777" width="100%" height="350" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+</div>
+{% endblock %}

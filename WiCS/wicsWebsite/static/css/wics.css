@@ -180,4 +180,33 @@ background: #660080;
     margin-bottom: 20px;
 }
 
+/* Formatting the Calendar in the Events page */
+@media (max-width: 768px) {
+  /* Hide the desktop-calendar in the mobile views */
+  .desktop-calendar {
+    display: none;
+  }
+  /* Make the mobile view of the calendar visible */
+  .mobile-calendar {
+    display: block;
+  }
+}
 
+@media (min-width: 768px) {
+  /* Hide the mobile view of the calendar in tablet/desktop views */
+  .mobile-calendar {
+    display: none;
+  }
+  /* Make the desktop view of the calendar visible in tablet/desktop views */
+  .desktop-calendar {
+    display: block;
+  }
+}
+
+.events.container {
+  margin-top: 50px;
+}
+
+.events.calendar {
+  margin-bottom: 2em;
+}
