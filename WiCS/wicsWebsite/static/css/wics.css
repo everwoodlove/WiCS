@@ -1,7 +1,7 @@
 /* Navigation bar */
 
 .navbar-default {
-    background-color: #220066;
+    background-color: #700ada;
 }
 
 .navbar-default .navbar-nav > li > a,
@@ -11,13 +11,13 @@
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-brand:hover {
-    background-color: #660080;
+    background-color: #5406A4;
     color: #ffffff;
 }
 
 .navbar-default .navbar-nav > li > a:active,
 .navbar-default .navbar-brand:active {
-    background-color: #660080;
+    background-color: #5406A4;
     color: #ffffff;
 }
 
@@ -114,7 +114,7 @@ span {
     color:white;
     height:1px;
     background:black;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#660080), to(#fff));
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#700ada), to(#fff));
     margin-bottom: 50px;
 }
 
@@ -123,8 +123,8 @@ span {
     border:none;
     color:white;
     height:1px;
-    background:#660080;
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#660080));
+    background:#700ada;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#fff), to(#700ada));
     margin-bottom: 50px;
 }
 }
@@ -146,16 +146,16 @@ span {
 
 #about {
     background: white;
-    color: #660080;
+    color: #700ada;
 }
 
 #meetings {
-background: #660080;
+background: #700ada;
 }
 
 #sponsors {
     background: white;
-    color: #660080;
+    color: #700ada;
 }
 
 .stack {
@@ -179,5 +179,3 @@ background: #660080;
 .stack-text {
     margin-bottom: 20px;
 }
-
-
