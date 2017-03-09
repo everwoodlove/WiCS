@@ -8,5 +8,6 @@ urlpatterns = [
     url(r'^events/$', views.events, name='events'),
     url(r'^outreach/$', views.outreach, name='outreach'),
     url(r'^imagearchive/$', views.image_archive, name='image_archive'),
+    url(r'^progComp/$', views.prog_comp, name='prog_comp')
 ]
 

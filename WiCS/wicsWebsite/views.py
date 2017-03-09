@@ -25,3 +25,6 @@ def outreach(request):
 
 def image_archive(request):
     return render(request, 'imageArchive.html')
+
+def prog_comp(request):
+	return render(request, 'progComp.html')

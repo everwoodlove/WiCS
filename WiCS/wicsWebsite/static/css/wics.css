@@ -25,6 +25,11 @@
     background-color: #ffffff;
 }
 
+.navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #660080;
+} 
+
 
 /* Images and specific placement items*/
 
